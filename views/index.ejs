@@ -6,6 +6,38 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p><%= subtitle %></p>
+    <table>
+      <tr>
+        <th>
+          <%= headers.idHeader %>
+        </th>
+        <th>
+          <%= headers.termHeader %>
+        </th>
+        <th>
+          <%= headers.descriptionHeader %>
+        </th>
+        <th>
+          <%= headers.referencesHeader %>
+        </th>
+      </tr>
+      <% terms.forEach((term) => { %>
+        <tr>
+          <td>
+            <%= term.id %>
+          </td>
+          <td>
+            <%= term.term %>
+          </td>
+          <td>
+            <%= term.description %>
+          </td>
+          <td>
+            <%= term.reference %>
+          </td>
+        </tr>
+      <% }); %>
+    </table>
   </body>
 </html>
