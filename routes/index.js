@@ -7,7 +7,7 @@ const headerObject = {
   descriptionHeader: 'Description',
   referencesHeader: 'References'
 }
-// NOTE: Referencing style = APA7
+
 const termsList = [
   {
     id: 1,
@@ -248,6 +248,66 @@ const termsList = [
     term: 'Container Registry',
     description: 'A container registry is the set of repositories that enables the storing, accessing and sharing of container images. It uses uploading (pushing) and downloading (pulling) functionalities, similar to version control of source code works. Once the image is pulled, the application within it can be run.',
     reference: 'What is a container registry?. Red Hat - We make open source technologies for the enterprise. (n.d.). https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry#:~:text=A%20container%20registry%20essentially%20acts,be%20run%20on%20that%20system.'
+  },
+  {
+    id: 41,
+    term: 'Automated Testing',
+    description: 'Automated testing is the use of software and other tools to automate the process of reviewing and validating a product. This increases the efficiency and improves the performance of products by removing many of the more tedious, manual processes. ',
+    reference: 'Atlassian. (n.d.). Automated software testing for continuous delivery. https://www.atlassian.com/continuous-delivery/software-testing/automated-testing'
+  },
+  {
+    id: 42,
+    term: 'Regression Testing',
+    description: 'Regression testing is a form of software testing that is performed after there has been a change to a software\'s code or configuration. The purpose of this testing is to ensure that there have been no adverse affects resulting from the change. ',
+    reference: 'Katalon. (2023, August 3). What is regression testing? definition, tools, examples. katalon.com. https://katalon.com/resources-center/blog/regression-testing'
+  },
+  {
+    id: 43,
+    term: 'Jest',
+    description: 'Jest is a JavaScript framework that is designed for the creating, running and structuring of tests. It is mainly built to work with React and React Native applications. Jest focuses on simplicity - aiming to give you quick results through an approachables, familiar, and feature-rich API.',
+    reference: 'Jest. Jest RSS. (n.d.). https://jestjs.io/'
+  },
+  {
+    id: 44,
+    term: 'Unit Testing',
+    description: 'Unit testing is the process of small, testable portions of an application are tested for defects or unexpected behaviour. This testable portion is typically a function, a method or a property. Unit testing is typically part of the programming phase, with the developer being the one writing and running the unit tests.',
+    reference: 'What is unit testing?. smartbear.com. (n.d.). https://smartbear.com/learn/automated-testing/what-is-unit-testing/'
+  },
+  {
+    id: 45,
+    term: 'Integration Testing',
+    description: 'Integration testing is a form of software testing where several dependent modules are tested. It helps to find issues that are not immediately apparent through unit testing alone - some of which are challenging to track or to reproduce.',
+    reference: 'Schmitt, J. (2021, December 3). Unit testing VS integration testing. CircleCI. https://circleci.com/blog/unit-testing-vs-integration-testing/'
+  },
+  {
+    id: 46,
+    term: 'End-to-End Testing',
+    description: 'End-to-end testing is type of testing used with software that verifies the software application in its entirety. That is, it verifies the entire application\'s workflow from start to finish. The aim of this is to ensure that the application meets the user requirements and that the application is functioning appropriately.',
+    reference: 'What is end to end testing?. BrowserStack. (2023, February 21). https://www.browserstack.com/guide/end-to-end-testing '
+  },
+  {
+    id: 47,
+    term: 'Kibana',
+    description: 'Kibana is a tool that allows for the visualisation of log and time-series data, application monitoring and operational intelligence purposes. This is achieved through dashboards and data views. Due to its close integration with Elasticsearch, Kibana is often the go-to for visualising data stored in Elasticsearch.',
+    reference: 'What is ELK Stack. Amazon. (n.d.). https://aws.amazon.com/what-is/elk-stack/ '
+  },
+  {
+    id: 48,
+    term: 'Prometheus',
+    description: 'Prometheus is a monitoring and alerting toolkit for cloud-native environments. It helps with monitoring aspects such as system performance, resource utilisation and application health. Its flexible querying language means that it is a popular choice for applications and infrastructure.',
+    reference: 'Prometheus. (n.d.). Prometheus - Monitoring System &amp; Time Series Database. Prometheus Blog. https://prometheus.io/ '
+  },
+  {
+    id: 49,
+    term: 'Grafana',
+    description: 'Grafana is an open-source tool that helps to visualise and analyse data from sources including monitoring systems and time-series databases. Grafana is commonly paired with Prometheus by connecting to Prometheus as a data source and providing visualisations for a more powerful and flexible monitoring stack.',
+    reference: 'Shivang, &amp; Shivang, S. W. I. am. (2023, June 26). What is Grafana? why use it? everything you should know about it. Scaleyourapp. https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/ '
+  },
+  {
+    id: 50,
+    term: 'Elasticsearch',
+    description: 'Elasticsearch is a search and analytics engine that is based on Apache Lucene. It is distributed and multitenant-capable with simple REST-based APIs. Benefits of Elasticsearch include high performance, complimentary tooling and plugins, and near real-time operations.',
+    reference: 'What is Elastic Search. Amazon. (n.d.). https://aws.amazon.com/what-is/elasticsearch/ '
   }
 ];
 
