@@ -188,6 +188,66 @@ const termsList = [
     term: 'Declarative Container Management',
     description: 'Declarative container management allows you to describe how the containers should run, ensuring that your applications always run in the desired state. Configuration files are often used here to define and maintain the desired state.',
     reference: 'Fundamentals of Declarative Application Management in kubernetes. Alibaba Cloud Community. (n.d.). https://www.alibabacloud.com/blog/fundamentals-of-declarative-application-management-in-kubernetes_596265'
+  },
+  {
+    id: 31,
+    term: 'Load Balancing',
+    description: 'Load balancing refers to when network traffic is evenly distributed across an application\'s resources. This is important to ensure the availability, scalability and performance of applications. A load balancer is a device that facilitates the equal allocation of traffic.',
+    reference: 'What is load balancing in cloud computing?. Avi Networks. (2022, July 8). https://avinetworks.com/glossary/load-balancing-in-cloud-computing/ '
+  },
+  {
+    id: 32,
+    term: 'Kubernetes Cluster',
+    description: 'A Kubernetes cluster is a set of node machines to enable to running of containerised applications. Clusters are the key to Kubernetes - it works by coordinating connected clusters that can work together as one entity.',
+    reference: 'What is kubernetes cluster? | vmware glossary | AU. (n.d.). https://www.vmware.com/au/topics/glossary/content/kubernetes-cluster.html'
+  },
+  {
+    id: 33,
+    term: 'Terraform',
+    description: 'Terraform is an Infrastructure as Cloud  tool created by HashiCorp. It uses a configuration language named HCL (HashiCorp Configuration Language) to define an application\'s desired infrastructure, which then generates a plan to provision that infrastructure. Benefits of Terraform include increased speed, greater reliability, and less configuration drift.',
+    reference: 'What is terraform: Terraform: HashiCorp developer. What is Terraform | Terraform | HashiCorp Developer. (n.d.). https://developer.hashicorp.com/terraform/intro'
+  },
+  {
+    id: 34,
+    term: 'Kubectl',
+    description: 'Kubectl is a Kubernetes command-line tool that enables the communication with a Kubernetes cluster\'s control plane. This is achieved through the use of API calls to perform management actions. Kubectl allows for cluster resource management, application deployment, and resource monitoring.',
+    reference: 'Command line tool (kubectl). Kubernetes. (n.d.). https://kubernetes.io/docs/reference/kubectl/'
+  },
+  {
+    id: 35,
+    term: 'Kubernetes Control Plane',
+    description: 'The Kubernetes control plane is responsible for managing clusters and resources. This is achieved by moving cluster resources from their current state to their desired state. The Kubernetes control plane consists of five main components, namely the kube-apiserver, kube-scheduler, kube-controller-manager, cloud-controller-manager, and etcd.',
+    reference: 'What is the Kubernetes Control Plane?. ARMO. (2023, June 25). https://www.armosec.io/glossary/kubernetes-control-plane/#:~:text=The%20Kubernetes%20control%20plane%20manages,state%20to%20the%20desired%20state.'
+  },
+  {
+    id: 36,
+    term: 'BitBucket',
+    description: 'BitBucket is a Git repository management system owned by Atlassian. It helps developers to manage their code, collaborate with others, and track changes in their code over time',
+    reference: 'Atlassian. (n.d.). Git solution for teams using jira. Bitbucket. https://bitbucket.org/product'
+  },
+  {
+    id: 37,
+    term: 'Local Code Repository',
+    description: 'A local code repository is a repository that is stored locally on a developer\'s machine. It allows them to work on code changes locally before pushing those to a remote repository where others can collaborate.',
+    reference: 'Jackson, E. (2023, June 15). Git: Working with local repository vs working with Remote Repository. Medium. https://levelup.gitconnected.com/git-working-with-local-repository-vs-working-with-remote-repository-b2ec00df9a2e'
+  },
+  {
+    id: 38,
+    term: 'Remote Code Repository',
+    description: 'A remote code repository is a remote storage location where developers can collaborate on code and project. files. It serves as a central hub where all developers\' changes reside. Common providers include GitHub, GitLab, or BitBucket.',
+    reference: 'What is a “remote” in Git? What is a “remote” in Git? | Learn Version Control with Git. (n.d.). https://www.git-tower.com/learn/git/glossary/remote#:~:text=A%20remote%20in%20Git%20is,of%20the%20project\'s%20current%20state.'
+  },
+  {
+    id: 39,
+    term: 'RabbitMQ',
+    description: 'RabbitMQ is a message-queueing software that implements the Advanced Message Queueing Protocol (AMQP). That is, it defines queues which applications connect to in order to transfer messages.',
+    reference: 'What is Rabbitmq?. Educative. (n.d.). https://www.educative.io/answers/what-is-rabbitmq'
+  },
+  {
+    id: 40,
+    term: 'Container Registry',
+    description: 'A container registry is the set of repositories that enables the storing, accessing and sharing of container images. It uses uploading (pushing) and downloading (pulling) functionalities, similar to version control of source code works. Once the image is pulled, the application within it can be run.',
+    reference: 'What is a container registry?. Red Hat - We make open source technologies for the enterprise. (n.d.). https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry#:~:text=A%20container%20registry%20essentially%20acts,be%20run%20on%20that%20system.'
   }
 ];
 
