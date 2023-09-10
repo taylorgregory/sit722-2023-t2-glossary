@@ -128,6 +128,66 @@ const termsList = [
     term: 'Kubernetes',
     description: 'Kubernetes is an open-source system used for grouping containers into logical units. It allows for automated deployment, scaling, and management of containerised applications. Benefits of Kubernetes include automated rollouts and rollbacks, storage orchestration, and secret and configuration management.',
     reference: 'Production-grade container orchestration. Kubernetes. (n.d.). https://kubernetes.io/'
+  },
+  {
+    id: 21,
+    term: 'Cloud-Native Application',
+    description: 'Cloud-native applications are built to take advantage of the distributed computing, scale and flexibility that the cloud provides. For a small amount of effort, developers and engineers are able to make high-impact changes.',
+    reference: 'What is cloud native?. Oracle Australia. (n.d.). https://www.oracle.com/au/cloud/cloud-native/what-is-cloud-native/'
+  },
+  {
+    id: 22,
+    term: 'Docker Compose',
+    description: 'Docker Compose is a tool for configuring your application\'s services. It is an effective tool in all environments and helps to manage the entire application\'s lifecycle.',
+    reference: 'Docker compose Overview. Docker Documentation. (2023, August 30). https://docs.docker.com/compose/'
+  },
+  {
+    id: 23,
+    term: 'Azure Storage Account',
+    description: 'An Azure storage account bands all of your Azure Storage data objects together - including blobs, files, queues and tables. Your Azure storage account is available from anywhere in the world using HTTP or HTTPS, and allows your data to be scalable, secure, and highly available.',
+    reference: 'Akashdubey-Ms. (n.d.). Storage account overview - azure storage. Azure Storage | Microsoft Learn. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview'
+  },
+  {
+    id: 24,
+    term: 'Bridge Network',
+    description: 'A bridge network is the default network driver which is best suited for multiple containers communicating on the same Docker host. Containers are able to communicate with each other using container names.',
+    reference: 'Bridge network driver. Docker Documentation. (2023a, August 22). https://docs.docker.com/network/drivers/bridge/'
+  },
+  {
+    id: 25,
+    term: 'Overlay Network',
+    description: 'An overlay network allows for communication between containers running on different Docker hosts. This is achieved by connecting Docker daemons together and enabling the communication of swarm services.',
+    reference: 'Overlay network driver. Docker Documentation. (2023c, August 22). https://docs.docker.com/network/drivers/overlay/'
+  },
+  {
+    id: 26,
+    term: 'MACVLAN Network',
+    description: 'A MACVLAN (MAC Virtual LAN) network allows for containers to appear as separate devices on a physical network by allocating unique MAC addresses. This allows for the direct communication with external devices.',
+    reference: 'Macvlan network driver. Docker Documentation. (2023c, August 22). https://docs.docker.com/network/drivers/macvlan/'
+  },
+  {
+    id: 27,
+    term: 'Synchronous Communication',
+    description: 'Synchronous communication involves multiple parties continually listening for replies from one another, and acting on this when it occurs. Examples of synchronous communication include phone calls, in-person commnication, or online live chat windows.',
+    reference: 'Gupta, P. (2021, August 18). Synchronous vs. Asynchronous Communications: The differences: TechTarget. App Architecture. https://www.techtarget.com/searchapparchitecture/tip/Synchronous-vs-asynchronous-communication-The-differences#:~:text=In%20synchronous%20communications%2C%20multiple%20parties,for%20a%20retailer\'s%20customer%20support.'
+  },
+  {
+    id: 28,
+    term: 'Asychronous Communication',
+    description: 'In asynchronous communication, parties are not actively listening for communication. As such, there are typically delays between when the message is sent and when the message is received, interpreted, and replied to. Examples of asynchronous communication includes email, text messaging, or physical mail.',
+    reference: 'Knott, R. (2023, April 6). Synchronous vs. Asynchronous Communication. The TechSmith Blog. https://www.techsmith.com/blog/synchronous-vs-asynchronous-communication/'
+  },
+  {
+    id: 29,
+    term: 'Docker Volume',
+    description: 'A Docker volume is an independent file system that persists data outside the data, allowing it to be backed up or shared. This is the preferred method of persisting data when using Docker\'s containers or services.',
+    reference: 'Zivuku, S. (2023, April 17). Understanding docker volumes. Earthly Blog. https://earthly.dev/blog/docker-volumes/#:~:text=A%20Docker%20volume%20is%20an,keeping%20them%20secure%20and%20effective.'
+  },
+  {
+    id: 30,
+    term: 'Declarative Container Management',
+    description: 'Declarative container management allows you to describe how the containers should run, ensuring that your applications always run in the desired state. Configuration files are often used here to define and maintain the desired state.',
+    reference: 'Fundamentals of Declarative Application Management in kubernetes. Alibaba Cloud Community. (n.d.). https://www.alibabacloud.com/blog/fundamentals-of-declarative-application-management-in-kubernetes_596265'
   }
 ];
 
